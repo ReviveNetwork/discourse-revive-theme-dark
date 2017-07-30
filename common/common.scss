@@ -35,14 +35,14 @@ body{
 *
 */
 
-a.badge-category[href="/c/news"]:before {
+a.badge-category[href="/category/news"]:before {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f02e";
+  content: "\f1ea";
   margin-right: 3px
 }
 
