@@ -31,6 +31,29 @@ body{
 
 /*
 *
+* Category Icons Open
+*
+*/
+
+a.badge-category[href="/category/news"]:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f02e";
+  margin-right: 3px
+}
+
+/*
+*
+* Category Icons Close
+*
+*/
+
+/*
+*
 * Header
 *
 */
