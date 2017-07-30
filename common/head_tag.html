@@ -160,39 +160,6 @@ jQuery.fn.doubleTapToGo = doubleTapToGoDecorator(jQuery.fn.doubleTapToGo);
 <!-- Second Navbar Close -->
 
 <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js" integrity="sha256-uaQssnQX0rh7jVmDZVVmcxo4CJ1eMHNenpMQCOpZxjQ=" crossorigin="anonymous"></script>
-<script>
-
-$( document ).ready(function() {
-
-    /**
-     * Callback executed if adblock is installed 
-     **/
-    function adblockDetected(){
-        document.getElementById("donatediv").style.display = "block";
-    }
-
-    /**
-     * Callback executed if adblock is disabled 
-     **/
-    function adblockDisabled(){
-        document.getElementById("ads").style.display = "block";
-    }
-
-
-    /**
-     * Verify adblock
-     **/
-    if(typeof blockAdBlock === "undefined"){
-        adblockDetected();
-    }else{
-
-        blockAdBlock.onDetected(adblockDetected);
-
-        blockAdBlock.onNotDetected(adblockDisabled);
-    }
-});
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
