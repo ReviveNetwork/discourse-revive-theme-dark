@@ -31,18 +31,6 @@ body{
 
 /*
 *
-* Category Icons Open
-*
-*/
-
-/*
-*
-* Category Icons Close
-*
-*/
-
-/*
-*
 * Header
 *
 */
@@ -167,7 +155,7 @@ header{
 *
 */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@media screen and (max-width:768px) {
+@media screen and (max-width:1150px) {
 /* Allows content to fill the viewport and go beyond the bottom */
 height: 100%;
 /* Allows you to scroll below the viewport; default value is visible */
