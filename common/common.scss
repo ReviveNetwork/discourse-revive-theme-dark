@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monda');
 
 body{
-    background: url('https://battlelog.co/img/maps/levelbgs/fushe%20pass.jpg');
+    background: url('https://www.battlelog.info/DiscourseBGDark.jpg');
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Monda', sans-serif;
@@ -22,7 +22,7 @@ body{
 
 #main-outlet{
     //background: url('https://www.toptal.com/designers/subtlepatterns/patterns/crossword.png');background-size: cover;
-    background:rgba(255, 255, 255, 0.9);
+    background:#222222;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
     padding-bottom:10px;
@@ -108,6 +108,7 @@ header{
 }
 
 
+
 /*
 *
 * Footer
@@ -116,7 +117,7 @@ header{
 
 .footer{
     color: #999;
-    background: #282828;
+    background: #080d10;
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: .8em;
@@ -131,8 +132,8 @@ header{
 #insetbox{
     margin-left: auto;
     margin-right: auto;
-    background: rgba(47, 50, 48, 1);
-    border: 1px solid #282828;
+    background: #151d22;
+    border: 1px solid #151d22;
     padding: 4px 4px 4px 4px;
     margin: 5px;
 }
@@ -194,7 +195,7 @@ overflow-y: scroll;
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #282828;
+  background: #151d22;
 }
 #cssmenu > ul > li {
   float: left;
@@ -298,7 +299,7 @@ overflow-y: scroll;
   text-decoration: none;
   color: #dddddd;
   font-weight: 400;
-  background: #333333;
+  background: #151d22;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
