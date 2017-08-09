@@ -35,10 +35,19 @@ body{
 *
 */
 .topic-body{
-  min-width:865px;
+  min-width:65%;
+  padding-left: 20px;
 }
 
-
+.timeline-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0;
+}
+.timeline-container .topic-timeline {
+    margin: 0;
+    float: right;
+}
 
 /*
 *
