@@ -170,7 +170,7 @@ header{
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
-    align-items: center;
+    align-items: left;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -180,9 +180,8 @@ header{
     -ms-justify-content: center;
     justify-content: center;
     position: relative;
-    text-align: center;
+    text-align: right;
     overflow: hidden;
-    background-color: #2f2f37;
     max-height: 15vh;
 }
     #pageheaderads img {
