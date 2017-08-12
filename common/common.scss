@@ -115,17 +115,30 @@ header{
 .list-controls{
     margin-top:15px;
 }
-.topic-list .badge-wrapper.bar {
-    .badge-category {
-      color: #9a9a9a !important;
-      font-weight: 600;
-      font-size: 12px;
-      padding: 2px 6px;
-    }
-    .badge-category-bg {
-        top: -1px;
+
+
+#topic-progress {
+    background-color: #f1f1f1;
+    color: #666;
+    font-weight: normal;
+    .bg {
+       background-color: #bee9e9;
     }
 }
+
+nav.post-controls button.has-like {
+    color: #08c;
+}
+
+.badge-wrapper.bullet span.badge-category {
+    color: #333 !important;
+}
+
+.creator .badge-wrapper.bullet span.badge-category {
+    color: #888 !important;
+    margin-top: -2px;
+}
+
 
 
 /*
