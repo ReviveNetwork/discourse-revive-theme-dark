@@ -141,8 +141,8 @@ header{
 #insetbox{
     margin-left: auto;
     margin-right: auto;
-    background: #151d22;
-    border: 1px solid #151d22;
+    background: #1a1a1a;
+    border: 1px solid #1a1a1a;
     padding: 4px 4px 4px 4px;
     margin: 5px;
 }
@@ -183,7 +183,7 @@ header{
     text-align: right;
     overflow: hidden;
    /* max-height: 15vh; */
-   /* background-color: #2f2f37;*/
+   background-color: #1a1a1a;
   
 }
     #pageheaderads img {
@@ -233,7 +233,7 @@ overflow-y: scroll;
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #151d22;
+  background: #1a1a1a;
 }
 #cssmenu > ul > li {
   float: left;
@@ -337,7 +337,7 @@ overflow-y: scroll;
   text-decoration: none;
   color: #dddddd;
   font-weight: 400;
-  background: #151d22;
+  background: #1a1a1a;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
